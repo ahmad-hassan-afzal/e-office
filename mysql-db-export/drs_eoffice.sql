@@ -1,4 +1,4 @@
--- phpMyAdmin SQL Dump
+-- phpMyAdmin SQL
 -- version 5.1.1
 -- https://www.phpmyadmin.net/
 -- Host: 127.0.0.1
@@ -19,10 +19,6 @@ SET time_zone = "+00:00";
 --
 -- Database: `drs_eoffice`
 --
-
--- --------------------------------------------------------
-
---
 -- Table structure for table `approvals`
 --
 
@@ -39,7 +35,6 @@ CREATE TABLE `approvals` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 -- --------------------------------------------------------
-
 --
 -- Table structure for table `comments`
 --
@@ -54,7 +49,6 @@ CREATE TABLE `comments` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 -- --------------------------------------------------------
-
 --
 -- Table structure for table `files`
 --
@@ -67,7 +61,6 @@ CREATE TABLE `files` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 -- --------------------------------------------------------
-
 --
 -- Table structure for table `request`
 --
@@ -89,7 +82,6 @@ CREATE TABLE `request` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 -- --------------------------------------------------------
-
 --
 -- Table structure for table `request_traversal`
 --
