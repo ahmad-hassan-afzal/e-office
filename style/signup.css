@@ -1,0 +1,137 @@
+:root
+{
+  --main-slate: #687864;
+  --main-blue: #31708e;
+  --sub-blue: #5085a5;
+  --sub-blue2:#8fc1e3;
+  --main-white: #f7f9fb; 
+  }
+    body{
+        margin: 0;
+        padding: 0;   
+        background-color: cadetblue;
+    }
+   
+      .brand_logo_container {
+        position: absolute;
+        height: 150px;
+        width: 150px;
+        border-radius: 50%;
+        background: var(--main-white);
+        text-align: center;
+    }
+    .brand_logo {
+        height: 120px;
+        width: 120px;
+        border-radius: 50%;    
+    }
+   
+    .form-container
+    {
+        margin-top: 130px;
+        width: 60%;
+        background-color: var(--main-white);
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        -moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        border-radius: 5px;
+    }
+
+    .form-container form
+    {
+        padding: 50px;
+        padding-top: 100px;
+    }
+    .custom-checkbox .custom-control-input:checked~.custom-control-label::before {
+        background-color: var(--main-blue) !important;
+    }
+    .heading-page
+    {
+        color: var(--main-white);
+        text-transform: uppercase;
+    }
+
+    .social-icons ul
+    {
+        list-style: none;
+        margin: auto;
+    }
+    .social-icons ul li{
+        display: inline;
+        text-decoration: none;
+        margin-left: 2px;
+        margin-right: 35px;
+        border-radius: 30px;
+    }
+    hr:after
+    {
+        content: "OR";
+        display: inline-block;
+        position: relative;     
+        top: -0.7em;  
+        padding: 0 0.25em;
+        background: var(--main-white);
+    }
+
+    .social-icons ul li:nth-child(1)
+    {
+       padding: 7px;
+       transition: all ease-in-out .3s;
+       color: #d64242 ;
+    }
+    .social-icons ul li:nth-child(1):hover
+    {
+       background-color: #d64242;
+       color: var(--main-white);
+    }
+
+    .social-icons ul li:nth-child(2)
+    {
+       padding: 5px 10px;
+       transition: all ease-in-out .3s;
+       color: var(--main-blue);
+    }
+    .social-icons ul li:nth-child(2):hover
+    {
+       background-color: var(--main-blue);
+       color: var(--main-white);
+    }
+
+    .social-icons ul li:nth-child(3)
+    {
+       padding: 5px 8px;
+       transition: all ease-in-out .3s;
+       color: var(--main-slate);
+    }
+    .social-icons ul li:nth-child(3):hover
+    {
+       background-color: var(--main-blue);
+       color: var(--main-white);
+    }
+
+    .error
+    {
+        color: red;
+        display: none;
+    }
+
+
+    @media screen and (max-width: 767px) {
+        
+        .form-container
+        {
+            width: 100%;
+        }
+        .form-container form
+        {            
+            padding: 15px !important;
+            padding-top: 100px !important;
+        }
+        .social-icons ul li{           
+            margin-right: -10px;
+        }
+       
+        .brand_logo_container {              
+            top: 80px !important;
+           }
+    }
