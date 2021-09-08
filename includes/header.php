@@ -51,7 +51,7 @@
                 <i class="ni ni-single-02"></i>
                 <span>My profile</span>
               </a>
-              <a href="about-us.php" class="dropdown-item">
+              <a href="about-us.php" class="dropdown-item" target="_blank">
                 <i class="ni ni-badge"></i>
                 <span>About Developers</span>
               </a>

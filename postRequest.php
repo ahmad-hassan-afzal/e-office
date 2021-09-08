@@ -40,6 +40,7 @@ $date = date('d.m.y-h:i:s a');
 
                 $maj_fileDestination = "uploads/$date/$maj_fileName";
                 move_uploaded_file($maj_fileTmpName, $maj_fileDestination);
+                convert2html("uploads/$date/", $maj_fileName);
                 
                 $route = explode('|',  $_POST["request-route"]);
                 

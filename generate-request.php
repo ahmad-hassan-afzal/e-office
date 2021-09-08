@@ -67,7 +67,7 @@ session_start();
                         </div>
                        </div>";
 
-                include('Footer.php');
+                include('includes/footer.php');
                 exit;
             } else {
                 echo "<div class='container mt-4 mb-2'>
@@ -128,7 +128,7 @@ session_start();
       </div>
     </div>
 
-    <?php include('Footer.php'); ?>
+    <?php include('includes/footer.php'); ?>
 
 </div>
 

@@ -23,7 +23,7 @@
               if ($filename == "index.php") $status = 'active';
               if ($_SESSION['app_auth'] || $_SESSION['admin']){
                 echo '<li class="nav-item">
-                      <a class="nav-link '.$status.'" href="/e-office">
+                      <a class="nav-link '.$status.'" href="index.php">
                         <i class="ni ni-tv-2 text-primary"></i>
                         <span class="nav-link-text">Dashboard</span>
                       </a>
