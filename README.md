@@ -1,6 +1,6 @@
 # e-office
 
-[Download This File and Extract it.](https://github.com/ahmad-hassan-afzal/e-office/blob/master/e-office.zip "Final Release")
+[Download This File and Extract it.](https://github.com/ahmad-hassan-afzal/e-office/blob/master/e-office.zip "Final Release"){:target="_blank" rel="noopener"}
 
 Import Database:  
 1- Start the xampp server  
