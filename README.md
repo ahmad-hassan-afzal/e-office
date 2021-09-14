@@ -1,4 +1,7 @@
 # e-office
+
+[Download This File and Extract it.](https://github.com/ahmad-hassan-afzal/e-office/blob/master/e-office.zip "Final Release")
+
 Import Database:  
 1- Start the xampp server  
 2- Goto localhost/phpmyadmin  
